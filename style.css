@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+  }
+  
+  .welcome{
+      background-image: url(pexels-zaksheuskaya-709412-1561020.jpg);  
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .container{
+      flex-direction: column;
+  }
+  h1{
+      padding-left: 30px;
+      font-size: 30px;
+      color:palevioletred;
+      font-family:cursive;
+  }
+  
+  .p-welcome{
+      font-size: 30px;
+      color:green;
+  }
+  
+  .theme{
+      background-color: rgb(248, 244, 227);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  p{
+  font-size: 20px;
+  font-weight: bold;
+  }
+  
+  .p-theme{
+      color: rgb(195, 67, 110);
+      padding: 20px;
+  }
+  
+  #toggle{
+  height: 50px;
+  width: 170px;
+  margin: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: green;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  }
+  
+  #toggle:hover{
+      color: rgb(248, 244, 227);
+      background-color: green;
+      border: none;
+  }
+  
+  .dark-mode .theme {
+      background-color: #1e2a38; 
+      color: #e6f0fa; 
+      transition: all 0.5s ease;
+    }
+    
+    .dark-mode .theme p {
+      color: #87ceeb; 
+    }
+    
+    .dark-mode #toggle {
+      background-color: #3ea6b7;
+      color: white;
+    }
+    
+    .dark-mode #toggle:hover {
+      background-color: #e6f0fa;
+      color: #1e2a38;
+    }
+    
